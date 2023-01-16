@@ -1,8 +1,11 @@
 .App {
   max-width: 600px;
+  border: 1px solid #dadee2;
+  background: rgb(198, 225, 241);
   margin: 30px auto;
 }
 .App footer {
-  font-size: 11px;
-  margin: 10px 0;
+  font-size: 13px;
+  margin: 10px auto;
+  font-style: italic;
 }
