@@ -23,7 +23,7 @@
 }
 .Weather .wind,
 .Weather .humidity {
-  font-size: 20px;
+  font-size: 18px;
   padding-top: 5px;
 }
 
@@ -37,13 +37,23 @@
 .Weather .temperature {
   font-weight: 550;
   color: rgb(48, 48, 48);
-  font-size: 64px;
+  font-size: 54px;
   margin-left: 10px;
+  margin-right: 5px;
 }
 .Weather .unit {
   font-size: 22px;
   font-weight: bold;
   position: relative;
   line-height: 1;
-  top: -34px;
+  color: black;
+  top: -24px;
+}
+.Weather .active {
+  color: grey;
+  text-decoration: none;
+}
+.Weather a:hover {
+  text-decoration: underline;
+  color: blue;
 }
